@@ -1,0 +1,581 @@
+* NGSPICE file created from fullldomf.ext - technology: sky130A
+
+.subckt fullldomf biasldo biasbgr trim[0] trim[2] trim[4] trim[6] trim[8] trim[10]
++ trim[12] trim[14] trim[15] trim[13] trim[11] trim[9] trim[7] trim[5] trim[3] trim[1]
++ out vdd vss
+X0 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=3.712e+13p pd=2.9776e+08u as=0p ps=0u w=1e+06u l=1e+06u
+X1 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=4.64e+12p ps=3.896e+07u w=1e+06u l=1e+06u
+X2 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=2.9e+13p pd=2.145e+08u as=0p ps=0u w=4e+06u l=1e+06u
+X3 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=4.5066e+14p pd=3.15498e+09u as=3.19e+14p ps=2.21276e+09u w=5e+07u l=500000u
+X4 ldomc_0.pmosm_0.vg ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.22e+12p pd=4.122e+07u as=4.64e+12p ps=3.896e+07u w=2e+06u l=4e+06u
+X5 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X6 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X7 ldomc_0.otaldom_0.pcascodeupm_0.o1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=4.64e+12p pd=3.664e+07u as=5.22e+12p ps=4.122e+07u w=2e+06u l=4e+06u
+X8 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X9 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=4.64e+12p pd=3.896e+07u as=5.22e+12p ps=4.122e+07u w=2e+06u l=4e+06u
+X10 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X11 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X12 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X13 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X14 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=4.64e+12p pd=3.722e+07u as=0p ps=0u w=1e+06u l=1e+06u
+X15 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X16 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=2.9e+13p pd=2.145e+08u as=5.8e+12p ps=4.29e+07u w=4e+06u l=1e+06u
+X17 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X18 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X19 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=5.8e+12p pd=4.29e+07u as=0p ps=0u w=4e+06u l=1e+06u
+X20 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X21 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X22 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X23 ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=4.64e+12p pd=3.432e+07u as=8.12e+12p ps=6.006e+07u w=4e+06u l=1e+06u
+X24 a_n7846_4436# bandgapmd_0.bg_stupm_0.vs2 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=1e+06u
+X25 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X26 bandgapmd_0.otam_1.pcascodeupm_0.o2 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=4.64e+12p pd=3.664e+07u as=0p ps=0u w=2e+06u l=4e+06u
+X27 ldomc_0.pmosm_0.vg ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X28 a_n24544_2674# a_n24956_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X29 ldomc_0.otaldom_0.nmosrm_0.outn bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=5.8e+12p pd=4.29e+07u as=0p ps=0u w=4e+06u l=1e+06u
+X30 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X31 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X32 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X33 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X34 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X35 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=8.12e+12p pd=6.006e+07u as=4.64e+12p ps=3.432e+07u w=4e+06u l=1e+06u
+X36 a_8404_8048# a_8284_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X37 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X38 a_n22428_2672# a_n22834_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X39 a_n24544_2674# a_n23894_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X40 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X41 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X42 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X43 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.22e+12p pd=4.122e+07u as=4.64e+12p ps=3.896e+07u w=2e+06u l=4e+06u
+X44 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X45 vss vss bandgapmd_0.pnp_groupm_0.eg sky130_fd_pr__pnp_05v5 W=0.68 L=0.68 m=1
+X46 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X47 vdd bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X48 bandgapmd_0.otam_1.pcascodeupm_0.o1 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=4.64e+12p pd=3.664e+07u as=0p ps=0u w=2e+06u l=4e+06u
+X49 a_n22428_2672# a_n21774_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X50 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=5.22e+12p pd=4.122e+07u as=0p ps=0u w=2e+06u l=4e+06u
+X51 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X52 vss vss vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X53 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X54 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X55 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X56 a_8524_8048# a_9124_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X57 ldomc_0.otaldom_0.nmosrm_0.outn bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X58 ldomc_0.otaldom_0.pcascodeupm_0.o1 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X59 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X60 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X61 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X62 bandgapmd_0.bg_stupm_0.vs2 vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X63 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X64 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X65 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.vdm_0.vb ldomc_0.otaldom_0.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=5.8e+12p ps=4.29e+07u w=4e+06u l=1e+06u
+X66 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X67 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.pmosm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X68 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X69 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X70 a_n11444_2076# bandgapmd_0.bg_pmosm_0.comp vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X71 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X72 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.51e+12p pd=4.38e+07u as=0p ps=0u w=2e+06u l=4e+06u
+X73 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X74 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X75 bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X76 bandgapmd_0.bg_stupm_0.vs2 vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X77 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.vdm_0.vb ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X78 vss vss bandgapmd_0.pnp_groupm_0.eg sky130_fd_pr__pnp_05v5 W=0.68 L=0.68 m=1
+X79 a_n14486_2076# a_n13784_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X80 bandgapmd_0.otam_1.pcascodeupm_0.o2 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X81 vdd bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X82 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X83 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X84 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.pmosm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X85 ldomc_0.vdm_0.vb a_8284_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X86 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X87 bandgapmd_0.bg_stupm_0.vbg bandgapmd_0.otam_1.pmosrm_0.out vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=1.16e+12p pd=8.58e+06u as=0p ps=0u w=4e+06u l=1e+06u
+X88 vss biasbgr bandgapmd_0.otam_1.pmosrm_0.bias1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=1.45e+12p ps=1.058e+07u w=5e+06u l=1e+07u
+X89 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X90 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X91 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X92 vdd ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pcsm_0.vbn2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=2.32e+12p ps=1.716e+07u w=4e+06u l=1e+06u
+X93 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X94 a_n13316_2076# a_n12848_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X95 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X96 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X97 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X98 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X99 vss biasldo biasldo vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=1.45e+12p ps=1.058e+07u w=5e+06u l=1e+07u
+X100 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.pmosm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X101 a_n23460_2674# a_n23894_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X102 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X103 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X104 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X105 ldomc_0.otaldom_0.pcascodeupm_0.o1 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X106 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X107 ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X108 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X109 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X110 bandgapmd_0.otam_1.pcascodeupm_0.o2 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=5.22e+12p ps=4.122e+07u w=2e+06u l=4e+06u
+X111 bandgapmd_0.bg_stupm_0.vs2 vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X112 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X113 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X114 a_n21356_2676# a_n21774_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X115 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X116 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pcsm_0.vbn2 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=1.16e+12p ps=9.16e+06u w=2e+06u l=4e+06u
+X117 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X118 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X119 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X120 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X121 vdd bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X122 vdd ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X123 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X124 ldomc_0.otaldom_0.pcascodeupm_0.o2 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=4.64e+12p pd=3.664e+07u as=0p ps=0u w=2e+06u l=4e+06u
+X125 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X126 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X127 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X128 vdd ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X129 ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X130 a_8524_8048# a_8164_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X131 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X132 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pcsm_0.vbn2 vss sky130_fd_pr__nfet_g5v0d10v5 ad=4.64e+12p pd=3.722e+07u as=1.16e+12p ps=9.16e+06u w=2e+06u l=4e+06u
+X133 bandgapmd_0.bg_stupm_0.vs2 vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X134 a_n20290_2674# a_n19654_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X135 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X136 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X137 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X138 vdd bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X139 ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X140 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X141 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X142 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X143 bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X144 ldomc_0.otaldom_0.pcascodeupm_0.o2 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.pmosm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=5.22e+12p ps=4.122e+07u w=2e+06u l=4e+06u
+X145 vss vss bandgapmd_0.pnp_groupm_0.eg sky130_fd_pr__pnp_05v5 W=0.68 L=0.68 m=1
+X146 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X147 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X148 a_n18160_2676# a_n17534_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X149 vss vss bandgapmd_0.otam_1.pdiffm_0.inn sky130_fd_pr__pnp_05v5 W=0.68 L=0.68 m=1
+X150 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X151 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X152 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X153 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X154 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X155 a_n11444_2076# a_n11678_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X156 bandgapmd_0.pnp_groupm_0.eg trim[0] a_n24956_4148# vss sky130_fd_pr__nfet_g5v0d10v5 ad=9.28e+12p pd=7.328e+07u as=5.8e+11p ps=4.58e+06u w=2e+06u l=500000u
+X157 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X158 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X159 a_8404_8048# a_9244_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X160 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X161 vdd bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X162 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X163 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X164 a_n14486_2076# a_n14720_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X165 vss vss vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X166 vdd bandgapmd_0.bg_stupm_0.vs2 bandgapmd_0.bg_stupm_0.vs2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=5.8e+11p ps=5.16e+06u w=1e+06u l=1e+06u
+X167 vdd ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X168 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X169 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X170 a_n7846_4436# bandgapmd_0.bg_stupm_0.vbg vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=1e+06u
+X171 ldomc_0.otaldom_0.nmosrm_0.outn bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X172 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X173 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X174 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X175 vdd bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.bg_pmosm_0.comp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=1.16e+12p ps=8.58e+06u w=4e+06u l=1e+06u
+X176 ldomc_0.otaldom_0.pcascodeupm_0.o1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X177 a_n13550_2076# a_n13784_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X178 vdd ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X179 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X180 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X181 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X182 vss vss bandgapmd_0.pnp_groupm_0.eg sky130_fd_pr__pnp_05v5 W=0.68 L=0.68 m=1
+X183 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X184 vdd bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X185 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.vdm_0.vb ldomc_0.otaldom_0.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X186 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X187 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X188 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X189 bandgapmd_0.bg_stupm_0.vbg vss sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X190 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X191 vss biasbgr biasbgr vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=1.45e+12p ps=1.058e+07u w=5e+06u l=1e+07u
+X192 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X193 a_n24544_2674# trim[1] bandgapmd_0.pnp_groupm_0.eg vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.8e+11p pd=4.58e+06u as=0p ps=0u w=2e+06u l=500000u
+X194 vdd ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X195 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.vdm_0.vb ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X196 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X197 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X198 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X199 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.vdm_0.vb ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X200 bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X201 a_n19218_2674# a_n19654_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X202 vdd bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X203 a_n20290_2674# a_n20714_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X204 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X205 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X206 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X207 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X208 vdd ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X209 ldomc_0.otaldom_0.pcsm_0.diff bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X210 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X211 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X212 ldomc_0.pmosm_0.vg ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X213 bandgapmd_0.bg_resm_0.trimup bandgapmd_0.otam_1.pdiffm_0.inp vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X214 bandgapmd_0.bg_resm_0.trimup a_n17534_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X215 a_n19218_2674# a_n18594_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X216 bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X217 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X218 ldomc_0.vdm_0.vb a_8644_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X219 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X220 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X221 a_n12146_2076# a_n12848_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X222 ldomc_0.pmosm_0.vg ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X223 vss vss vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X224 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X225 ldomc_0.otaldom_0.pcascodeupm_0.o2 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X226 vdd bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X227 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X228 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X229 bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X230 ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X231 vss vss bandgapmd_0.pnp_groupm_0.eg sky130_fd_pr__pnp_05v5 W=0.68 L=0.68 m=1
+X232 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X233 a_n15188_2076# bandgapmd_0.otam_1.pdiffm_0.inp vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X234 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X235 a_n11210_2076# a_n11912_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X236 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X237 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X238 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X239 ldomc_0.pmosm_0.vg ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X240 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X241 bandgapmd_0.pnp_groupm_0.eg a_n24956_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X242 out a_9244_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X243 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pcsm_0.vbn2 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X244 vdd ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X245 vdd ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X246 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X247 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X248 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X249 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X250 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X251 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X252 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X253 vdd bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X254 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X255 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X256 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X257 bandgapmd_0.otam_1.pcascodeupm_0.o2 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X258 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X259 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X260 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X261 bandgapmd_0.bg_stupm_0.vs2 vdd vss vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=1.34769e+14p ps=9.3002e+08u w=1e+06u l=1e+06u
+X262 vdd bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pcsm_0.vbn2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=2.32e+12p ps=1.716e+07u w=4e+06u l=1e+06u
+X263 vdd bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X264 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X265 ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X266 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X267 a_n12146_2076# a_n11912_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X268 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X269 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X270 ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X271 ldomc_0.otaldom_0.pmosrm_0.bias1 biasldo vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=1.45e+12p pd=1.058e+07u as=0p ps=0u w=5e+06u l=1e+07u
+X272 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X273 vss vss bandgapmd_0.pnp_groupm_0.eg sky130_fd_pr__pnp_05v5 W=0.68 L=0.68 m=1
+X274 a_n15188_2076# a_n14954_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X275 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X276 a_n18160_2676# a_n18594_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X277 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X278 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X279 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X280 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X281 vdd ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X282 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X283 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X284 ldomc_0.otaldom_0.pcascodeupm_0.o2 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X285 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X286 vss vss vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X287 vdd bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X288 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X289 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X290 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X291 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X292 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X293 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X294 a_n19218_2674# trim[11] bandgapmd_0.pnp_groupm_0.eg vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.8e+11p pd=4.58e+06u as=0p ps=0u w=2e+06u l=500000u
+X295 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X296 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.pmosm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X297 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X298 ldomc_0.otaldom_0.pcascodeupm_0.o1 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X299 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X300 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X301 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X302 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X303 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X304 vdd bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X305 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X306 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X307 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pcsm_0.vbn2 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X308 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X309 bandgapmd_0.pnp_groupm_0.eg trim[2] a_n23894_4148# vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=5.8e+11p ps=4.58e+06u w=2e+06u l=500000u
+X310 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X311 ldomc_0.otaldom_0.pcascodeupm_0.o2 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.pmosm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X312 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X313 vdd ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X314 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X315 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X316 ldomc_0.otaldom_0.pcascodeupm_0.o1 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X317 ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X318 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X319 ldomc_0.otaldom_0.nmosrm_0.outn bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X320 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X321 a_8764_8048# a_8644_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X322 bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X323 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X324 bandgapmd_0.otam_1.pcascodeupm_0.o2 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X325 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X326 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X327 ldomc_0.otaldom_0.pcascodeupm_0.o2 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.pmosm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X328 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X329 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X330 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X331 bandgapmd_0.pnp_groupm_0.eg trim[4] a_n22834_4148# vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=5.8e+11p ps=4.58e+06u w=2e+06u l=500000u
+X332 ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X333 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.vdm_0.vb ldomc_0.otaldom_0.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X334 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X335 vss vss bandgapmd_0.pnp_groupm_0.eg sky130_fd_pr__pnp_05v5 W=0.68 L=0.68 m=1
+X336 bandgapmd_0.otam_1.pcascodeupm_0.o2 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X337 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X338 out a_9124_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X339 a_n13550_2076# a_n12614_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X340 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X341 vdd bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pcsm_0.vbn2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X342 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X343 ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X344 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X345 ldomc_0.otaldom_0.pcascodeupm_0.o1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X346 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X347 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X348 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X349 ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X350 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X351 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X352 vdd vdd vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X353 vss vss vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X354 vdd ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X355 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X356 ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X357 ldomc_0.otaldom_0.pcsm_0.diff bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X358 biasbgr biasbgr vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+07u
+X359 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X360 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X361 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X362 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X363 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X364 a_n15422_2076# a_n14720_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X365 ldomc_0.otaldom_0.pcascodeupm_0.o2 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.pmosm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X366 bandgapmd_0.pnp_groupm_0.eg trim[14] a_n17534_4148# vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=5.8e+11p ps=4.58e+06u w=2e+06u l=500000u
+X367 vss vss vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X368 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X369 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X370 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X371 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X372 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X373 bandgapmd_0.otam_1.pcascodeupm_0.o1 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X374 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X375 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X376 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X377 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X378 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X379 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X380 a_n22428_2672# trim[5] bandgapmd_0.pnp_groupm_0.eg vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.8e+11p pd=4.58e+06u as=0p ps=0u w=2e+06u l=500000u
+X381 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X382 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X383 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X384 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X385 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X386 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X387 bandgapmd_0.pnp_groupm_0.eg trim[10] a_n19654_4148# vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=5.8e+11p ps=4.58e+06u w=2e+06u l=500000u
+X388 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X389 vdd ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X390 ldomc_0.otaldom_0.pcsm_0.diff bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X391 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X392 bandgapmd_0.bg_pmosm_0.comp bandgapmd_0.otam_1.pmosrm_0.out vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X393 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X394 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X395 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X396 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X397 a_n14252_2076# a_n14954_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X398 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X399 a_n20290_2674# trim[9] bandgapmd_0.pnp_groupm_0.eg vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.8e+11p pd=4.58e+06u as=0p ps=0u w=2e+06u l=500000u
+X400 ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X401 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X402 a_8764_8048# a_8884_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X403 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X404 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X405 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X406 a_n13316_2076# a_n14018_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X407 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X408 vdd bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X409 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X410 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X411 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X412 vdd ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pcsm_0.vbn2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X413 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X414 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X415 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X416 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X417 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X418 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X419 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X420 a_n11210_2076# bandgapmd_0.bg_stupm_0.vbg vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X421 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X422 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X423 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X424 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X425 ldomc_0.pmosm_0.vg ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X426 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X427 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X428 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X429 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X430 bandgapmd_0.otam_1.pcascodeupm_0.o1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X431 ldomc_0.pmosm_0.vg ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X432 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X433 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X434 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X435 bandgapmd_0.otam_1.pcascodeupm_0.o1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X436 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X437 bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X438 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X439 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X440 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X441 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X442 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X443 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X444 ldomc_0.pmosm_0.vg ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X445 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X446 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X447 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X448 bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X449 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X450 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X451 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X452 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X453 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inn bandgapmd_0.otam_1.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X454 bandgapmd_0.otam_1.pmosrm_0.out a_n7846_4436# vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X455 ldomc_0.otaldom_0.nmosrm_0.outn bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X456 bandgapmd_0.otam_1.pmosrm_0.bias1 biasbgr vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+07u
+X457 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X458 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X459 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X460 bandgapmd_0.otam_1.pcascodeupm_0.o1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X461 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X462 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X463 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X464 bandgapmd_0.bg_resm_0.trimup trim[15] bandgapmd_0.pnp_groupm_0.eg vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.8e+11p pd=4.58e+06u as=0p ps=0u w=2e+06u l=500000u
+X465 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X466 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X467 vdd bandgapmd_0.otam_1.pmosbm_0.vbp1 bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X468 a_n18160_2676# trim[13] bandgapmd_0.pnp_groupm_0.eg vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.8e+11p pd=4.58e+06u as=0p ps=0u w=2e+06u l=500000u
+X469 bandgapmd_0.pnp_groupm_0.eg trim[6] a_n21774_4148# vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=5.8e+11p ps=4.58e+06u w=2e+06u l=500000u
+X470 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X471 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosbm_0.vbp1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X472 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X473 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.vdm_0.vb ldomc_0.otaldom_0.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X474 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X475 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.vdm_0.vb ldomc_0.otaldom_0.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X476 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X477 ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg ldomc_0.pmosm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X478 a_n23460_2674# trim[3] bandgapmd_0.pnp_groupm_0.eg vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.8e+11p pd=4.58e+06u as=0p ps=0u w=2e+06u l=500000u
+X479 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X480 ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pmosrm_0.bias1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X481 vdd bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.bg_stupm_0.vbg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X482 a_n14252_2076# a_n14018_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X483 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.vdm_0.vb ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X484 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X485 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.vdm_0.vb ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X486 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X487 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X488 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X489 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X490 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X491 ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X492 a_n12380_2076# a_n11678_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X493 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X494 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X495 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X496 ldomc_0.otaldom_0.pcsm_0.diff bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X497 bandgapmd_0.pnp_groupm_0.eg trim[8] a_n20714_4148# vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=5.8e+11p ps=4.58e+06u w=2e+06u l=500000u
+X498 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X499 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X500 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X501 bandgapmd_0.otam_1.pcascodeupm_0.o1 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X502 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X503 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X504 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X505 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X506 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X507 bandgapmd_0.otam_1.pcascodeupm_0.o2 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X508 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X509 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X510 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X511 biasldo biasldo vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+07u
+X512 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X513 ldomc_0.otaldom_0.pcascodeupm_0.o2 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X514 ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pmosbm_0.vbp1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X515 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X516 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X517 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X518 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X519 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X520 ldomc_0.otaldom_0.pcsm_0.diff bandgapmd_0.bg_stupm_0.vbg ldomc_0.otaldom_0.nmosrm_0.outn vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X521 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X522 bandgapmd_0.otam_1.pcascodeupm_0.o1 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X523 vdd ldomc_0.otaldom_0.pmosbm_0.vbp1 ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X524 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X525 vss vss bandgapmd_0.pnp_groupm_0.eg sky130_fd_pr__pnp_05v5 W=0.68 L=0.68 m=1
+X526 out ldomc_0.pmosm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X527 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X528 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X529 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X530 ldomc_0.otaldom_0.nmoslm_0.outp ldomc_0.otaldom_0.pcsm_0.vbn2 ldomc_0.otaldom_0.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X531 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X532 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X533 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X534 ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff ldomc_0.otaldom_0.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X535 vss a_8884_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X536 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X537 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X538 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X539 a_n21356_2676# trim[7] bandgapmd_0.pnp_groupm_0.eg vss sky130_fd_pr__nfet_g5v0d10v5 ad=5.8e+11p pd=4.58e+06u as=0p ps=0u w=2e+06u l=500000u
+X540 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
+X541 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X542 ldomc_0.otaldom_0.pcascodeupm_0.o1 ldomc_0.otaldom_0.pmosrm_0.bias1 ldomc_0.otaldom_0.pcascodeupm_0.vg vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X543 bandgapmd_0.otam_1.pcascodeupm_0.o2 bandgapmd_0.otam_1.pmosrm_0.bias1 bandgapmd_0.otam_1.pmosrm_0.out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X544 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X545 a_n23460_2674# a_n22834_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X546 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X547 bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X548 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X549 ldomc_0.otaldom_0.nmosrm_0.outn ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X550 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X551 vdd ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X552 bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.vg vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u
+X553 out ldomc_0.vdm_0.vb sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X554 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmoslm_0.outp vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X555 a_n12380_2076# a_n12614_5108# vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+X556 a_n21356_2676# a_n20714_4148# vss sky130_fd_pr__res_high_po w=1.41e+06u l=2.8e+06u
+X557 bandgapmd_0.otam_1.pcascodeupm_0.o1 bandgapmd_0.otam_1.pcascodeupm_0.vg vdd vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X558 bandgapmd_0.otam_1.nmoslm_0.outp bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.pcsm_0.diff vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X559 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X560 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.nmosbn2m_0.vbn1 vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X561 vss vss vss vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X562 bandgapmd_0.pnp_groupm_0.eg trim[12] a_n18594_4148# vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=5.8e+11p ps=4.58e+06u w=2e+06u l=500000u
+X563 vdd bandgapmd_0.otam_1.pcascodeupm_0.vg bandgapmd_0.otam_1.pcascodeupm_0.o1 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X564 vdd ldomc_0.otaldom_0.pcascodeupm_0.vg ldomc_0.otaldom_0.pcascodeupm_0.o2 vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X565 bandgapmd_0.otam_1.pcsm_0.diff bandgapmd_0.otam_1.pdiffm_0.inp bandgapmd_0.otam_1.nmoslm_0.outp vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u
+X566 bandgapmd_0.otam_1.nmosrm_0.outn bandgapmd_0.otam_1.pcsm_0.vbn2 bandgapmd_0.otam_1.pmosrm_0.out vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=4e+06u
+X567 ldomc_0.vdm_0.vb a_8164_10248# vss sky130_fd_pr__res_xhigh_po w=350000u l=8.5e+06u
+X568 vss biasldo ldomc_0.otaldom_0.pmosrm_0.bias1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+07u
+X569 vdd ldomc_0.pmosm_0.vg out vdd sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=5e+07u l=500000u
+X570 vss bandgapmd_0.otam_1.nmosbn2m_0.vbn1 bandgapmd_0.otam_1.nmosrm_0.outn vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X571 ldomc_0.pmosm_0.vg out sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=5e+06u
+X572 vss ldomc_0.otaldom_0.nmosbn2m_0.vbn1 ldomc_0.otaldom_0.nmosbn2m_0.vbn1 vss sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u
+X573 a_n15422_2076# bandgapmd_0.otam_1.pdiffm_0.inn vss sky130_fd_pr__res_xhigh_po w=690000u l=1.3e+07u
+.ends
+
