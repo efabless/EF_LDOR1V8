@@ -1,0 +1,65 @@
+** sch_path: /home/ahmedreda/Project/AR_BGR/testbench/full_ldo/fullldox_v2-tb/loadreg.sch
+**.subckt loadreg
+vdd1 vdd1 vss 3.63
+.save i(vdd1)
+vss2 vss GND 0
+.save i(vss2)
+Vbias net1 biasbgr 0
+.save i(vbias)
+vtot vdd1 vdd 0
+.save i(vtot)
+R3 net4 vdd 300000 m=1
+C3 vo net2 47u m=1
+R4 net2 vss 0.1 m=1
+**Vl net3 vss 0
+.save i(vl)
+Vbiasldo net4 biasldo 0
+.save i(vbiasldo)
+R2 net1 vdd 450000 m=1
+R22 vo vss 18
+**** begin user architecture code
+**x1 vo biasldo biasbgr vss vss vss vdd vss vss vss vss vss vss vss vss vss vss vss vss vss vdd fullldomcc
+
+x1 biasldo biasbgr vss vss vss vdd vss vss vss vss vss vss vss vss vss vss vss vss vo vdd vss fullldom
+
+
+
+.options RSHUNT=1e15
+.options savecurrents
+.option TEMP=27
+.option TNOM=27
+
+.control
+**set filetype=binary
+set filetype=ascii
+set color0=white
+set color1=black
+set color3=blue
+options interp
+set xbrushwidth=3
+run
+save all
+dc R22 18 18000 10
+plot vo vdd vbg
+plot vo
+plot vbg
+meas DC vo1 FIND vo AT=100
+meas DC vo2 FIND vo AT=18000
+let loadReg= mag(vo1-vo2)*1000/99.9
+print loadReg
+
+
+.endc
+
+
+
+
+
+.lib /home/ahmedreda/PDK/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include fullldom.spice
+
+
+
+
+.GLOBAL GND
+.end
