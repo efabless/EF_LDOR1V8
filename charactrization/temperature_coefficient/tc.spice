@@ -1,0 +1,60 @@
+** sch_path: /home/ahmedreda/Project/AR_BGR/testbench/full_ldo/fullldox_v2-tb/tc.sch
+**.subckt tc
+vdd1 vdd1 vss 3.3
+.save i(vdd1)
+vss2 vss GND 0
+.save i(vss2)
+Vbias net1 biasbgr 0
+.save i(vbias)
+vtot vdd1 vdd 0
+.save i(vtot)
+R3 net4 vdd 300000 m=1
+C3 vo net2 47u m=1
+R4 net2 vss 0.1 m=1
+R5 vo net3 1800 m=1
+Vl net3 vss 0
+.save i(vl)
+Vbiasldo net4 biasldo 0
+.save i(vbiasldo)
+R2 net1 vdd 450000 m=1
+x1 biasldo biasbgr vss vss vss  vss  vss vdd vss vss vss vss vss vss vss vss vss vss vo vdd vss fullldom
+
+**** begin user architecture code
+
+
+.options RSHUNT=1e15
+.options savecurrents
+.option TEMP=27
+.option TNOM=27
+.control
+**set filetype=binary
+set filetype=ascii
+set color0=white
+set color1=black
+set color3=blue
+set xbrushwidth=3
+run
+save all
+dc TEMP 0 70 1
+plot vo
+meas DC vonom FIND vo AT=27
+meas DC vomin1 FIND vo AT=0
+meas DC vomax1 FIND vo AT=70
+let vomin=vecmin(vo)
+let vomax=vecmax(vo)
+let tc=1000000*(vomax-vomin)/((70-(0))*vonom)
+
+print tc
+.endc
+
+
+
+
+.lib /home/ahmedreda/PDK/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.include fullldom.spice
+
+
+
+.GLOBAL GND
+.end
