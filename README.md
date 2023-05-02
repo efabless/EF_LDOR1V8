@@ -1,5 +1,5 @@
 # EF_LDOR01
-Open Source, 3.3 V to 1.8 V, 100 mA Full Regulator 
+# Open Source, 3.3 V to 1.8 V, 100 mA Full Regulator 
 The EF_LDOR01 is a positive low dropout regulator for
 output of 1.8 V. It is capable of supplying 100 mA of output
 current with a dropout voltage of 650 mV. Low operating
