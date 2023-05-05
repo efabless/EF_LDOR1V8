@@ -87,7 +87,7 @@
 
 *Figure 8. (a) Ripple Voltage at Vp-p=0.5 V , (b) PSRR vs Frequency at IL=100 mA, (c) PSRR Vs Load current at fripple=120 Hz and Vp-p=0.5 V*
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%209.load_transient_response.png" width="1000" height="600">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%209.load_transient_response.png" width="800" height="300">
 
 *Figure 9. Load Transient Response at VDD of 3.3 V (tr=tf=10μs).*
 
