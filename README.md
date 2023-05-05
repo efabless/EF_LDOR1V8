@@ -65,15 +65,15 @@
                        
 *Figure 4. (a) Output Voltage vs Input Voltage, (b) Line Regulation vs Load Current.*
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%205.output_voltage_vs_load_resistance.png" width="400" height="300">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%205.output_voltage_vs_load_resistance.png" width="400" height="350">
 
 *Figure 5.  Output Voltage vs Load Resistance at VDD=3.3V*
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure6.%20startup_time.png" width="400" height="300">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure6.%20startup_time.png" width="600" height="500">
 
 *Figure 6. Startup time at different rising time of input voltage Il=100 mA.*
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure7.%20temperature_coefficient.png" width="400" height="300">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure7.%20temperature_coefficient.png" width="400" height="200">
 
 *Figure 7. Temperature Coefficient of the output voltage at (a) IL=100 mA, and (b) IL=1 mA*
 
