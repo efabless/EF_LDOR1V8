@@ -45,7 +45,7 @@
 
 #### Next, typical perofmane curves of the EF_LDOR01 post-layout simulations are presented. 
 
-* As depicted in Figure 3 (a), EF_LDOR01's output is ploted with sweeping the input voltgae from 0V to 5V at different levels of load currents. Besides, the dorpout voltages are calculated at different levels of load currents, then plotted as shown in Figure 3 (b). In Figure 4, Output Voltage vs Input Voltage and Line Regulation vs Load Current are illustrated. Load Regulation can be measured using Figure 5. Startup time  and Temperature Coefficient are calculated as shwon in Figure 6 and 7, repectevely. 
+* As depicted in Figure 3 (a), EF_LDOR01's output is plotted by sweeping the input voltage from 0V to 5V at different levels of load currents. Besides, the dropout voltages are calculated at different levels of load currents, then plotted as shown in Figure 3 (b). In Figure 4, Output Voltage vs Input Voltage and Line Regulation vs Load Current are illustrated. Load Regulation can be measured using Figure 5. Startup time and Temperature Coefficient are calculated as shown in Figures 6 and 7, respectively. 
 
 
 
