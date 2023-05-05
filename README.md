@@ -91,7 +91,7 @@
 
 *Figure 9. Load Transient Response at VDD of 3.3 V (tr=tf=10μs).*
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure10.line_transient_response.png" width="800" height="500">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure10.line_transient_response.png" width="800" height="300">
 
 *Figure 10. Line Transient Response at IL of 100 mA and VDD transits from 2.97 V to 3.63 V.*
 
