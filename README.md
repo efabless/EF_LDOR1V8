@@ -81,7 +81,7 @@
 
 (a)
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure8.%20(b)psrr_vs_frequency%20(c)psrr_load_current.png" width="600" height="300">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure8.%20(b)psrr_vs_frequency%20(c)psrr_load_current.png" width="600" height="400">
 
                        (b)                                            (c)
 
