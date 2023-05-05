@@ -31,3 +31,18 @@
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure2.typical_application.png"  width="300" height="200">
 
 *Figure 2. Typical Application*
+
+## 5. Electrical Characteristics
+
+* The post-layout simulation results of the proposed EF_LDOR01 are listed in Table 2. Those parameters are reported at Temp.=27°C,Co=47µF, ESR=0.1Ω, RB1=450 KΩ, RB2=300 KΩ, Trim[6]=3.3 V. 
+
+*Table 2. Electrical Characteristics*
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/table2.png" width="1000" height="800">
+
+## 6. Typical Performance Curves
+
+* The proposed EF_LDOR01 has been designed and simulated using open-source tools with SkyWater technology. Herein, [XSCHEM](https://xschem.sourceforge.io/stefan/index.html) is a schematic capture program that provides a graphical method of the electronic schematic circuit, easily. [NGSPICE](http://ngspice.sourceforge.net/download.html) is an open-source spice simulator. It is exploied to simulate and verify the designed circuit. Layout of the EF_DACR0801 is implemented using [MAGIC 8.3](http://opencircuitdesign.com/magic/) and for design rule check (DRC) as well. However, [NETGEN](http://opencircuitdesign.com/netgen/) is used for comparing netlists of the layout and schematic, known as layout vs schamtc (LVS). [PYTHON](https://www.python.org/) can be integrated with NGSPICE simulator for data manipulation/analysis of the simulation result.
+
+#### Next, typical perofmane curves of the EF_LDOR01 post-layout simulations are presented. 
+
+
