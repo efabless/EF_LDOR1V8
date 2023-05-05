@@ -86,3 +86,20 @@
                        (b)                                            (c)
 
 *Figure 8. (a) Ripple Voltage at Vp-p=0.5 V , (b) PSRR vs Frequency at IL=100 mA, (c) PSRR Vs Load current at fripple=120 Hz and Vp-p=0.5 V*
+
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%209.load_transient_response.png" width="1000" height="600">
+
+*Figure 9. Load Transient Response at VDD of 3.3 V (tr=tf=10μs).*
+
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure10.line_transient_response.png" width="1000" height="600">
+
+*Figure 10. Line Transient Response at IL of 100 mA and VDD transits from 2.97 V to 3.63 V.*
+
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%2011.output_noise_spectrum.png
+" width="1000" height="600">
+
+*Figure 11. Output Noise Spectrum*
+
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure12.full_regulator_layout.png" width="1000" height="600">
+
+*Figure 12. Full Regulator Layout*
