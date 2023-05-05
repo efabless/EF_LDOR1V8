@@ -96,10 +96,10 @@
 *Figure 10. Line Transient Response at IL of 100 mA and VDD transits from 2.97 V to 3.63 V.*
 
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%2011.output_noise_spectrum.png
-" width="1000" height="600">
+" width="400" height="350">
 
 *Figure 11. Output Noise Spectrum*
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure12.full_regulator_layout.png" width="1000" height="600">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure12.full_regulator_layout.png" width="800" height="600">
 
 *Figure 12. Full Regulator Layout*
