@@ -44,7 +44,7 @@
 * The proposed EF_LDOR01 has been designed and simulated using open-source tools with SkyWater technology. Herein, [XSCHEM](https://xschem.sourceforge.io/stefan/index.html) is a schematic capture program that provides a graphical method of the electronic schematic circuit, easily. [NGSPICE](http://ngspice.sourceforge.net/download.html) is an open-source spice simulator. It is exploied to simulate and verify the designed circuit. Layout of the EF_DACR0801 is implemented using [MAGIC 8.3](http://opencircuitdesign.com/magic/) and for design rule check (DRC) as well. However, [NETGEN](http://opencircuitdesign.com/netgen/) is used for comparing netlists of the layout and schematic, known as layout vs schamtc (LVS). [PYTHON](https://www.python.org/) can be integrated with NGSPICE simulator for data manipulation/analysis of the simulation result.
 
 #### Next, typical perofmane curves of the EF_LDOR01 post-layout simulations are presented. 
-As depicted in Figure 3 (a), EF_LDOR01's output is ploted with sweeping the input voltgae from 0V to 5V at different levels of load currents. Besides, the dorpout voltages are calculated at different levels of load currents, then plotted as shown in Figure 3 (b).
+As depicted in Figure 3 (a), EF_LDOR01's output is ploted with sweeping the input voltgae from 0V to 5V at different levels of load currents. Besides, the dorpout voltages are calculated at different levels of load currents, then plotted as shown in Figure 3 (b). In Figure 4, Output Voltage vs Input Voltage and Line Regulation vs Load Current are illustrated.
 
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure3.(a)%20Output%20Voltage%20vs%20Input%20Voltage.png" width="800" height="500">
 
@@ -56,4 +56,8 @@ As depicted in Figure 3 (a), EF_LDOR01's output is ploted with sweeping the inpu
 
 *Figure 3. (a) Output Voltage vs Input Voltage, (b) Dropout Voltage vs Load Current.*
 
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure4.%20(a)%20output-voltage_vs_Input_voltage(b)line_regulation_vs_load_current..png" width="600" height="200">
 
+                       (a)                                            (b)
+                       
+*Figure 4. (a) Output Voltage vs Input Voltage, (b) Line Regulation vs Load Current.*
