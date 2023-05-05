@@ -4,3 +4,18 @@
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure1.functionalblockdiagram.png" width="300" height="250">
 
 *Figure 1. Functional Block Diagram*
+
+## 2. Features
+* 100mA Output Current Capability.
+* Standard Fixed Output Voltage of 1.8 V.
+* Low Dropout Voltage: 650 mV at 100 mA.
+* Stable with Output Capacitora of 47 µF.
+* Low Supply Current of 115 µA (No Load).
+* Low Temperature Coefficient 125 ppm/°C.
+* 0.016 V/V Line Regulation at 100 mA.
+*	0.0083 mV/mA Load Regulation at 3.3 V.
+*	Power Supply Ripple Rejection of 38.9 dB.
+*	Startup time of 450 µs at rising time of 100 µs.
+
+## 2. Applications
+*	3.3V to 1.8V Logic Power Supply 
