@@ -102,3 +102,13 @@
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure12.full_regulator_layout.png" width="800" height="300">
 
 *Figure 12. Full Regulator Layout*
+
+## 7. Downloading the files on your System
+<p>&nbsp;</p>
+
+* The files from this repository can be downloaded and used by the following commands :-
+>`sudo apt install -y git`
+
+>`git clone https://github.com/Ahmedredamohamed2022/EF_LDOR01.git`
+
+<p>&nbsp;</p>
