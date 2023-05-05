@@ -46,6 +46,14 @@
 #### Next, typical perofmane curves of the EF_LDOR01 post-layout simulations are presented. 
 As depicted in Figure 3 (a), EF_LDOR01's output is ploted with sweeping the input voltgae from 0V to 5V at different levels of load currents. Besides, the dorpout voltages are calculated at different levels of load currents, then plotted as shown in Figure 3 (b).
 
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure3.(a)%20Output%20Voltage%20vs%20Input%20Voltage.png" width="1000" height="800">
+
+*(a)*
+
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure3.%20(b)dropout_voltage_%20vs_load%20current..png" width="1000" height="800">
+
+*(b)
+
 
 *Figure 3. (a) Output Voltage vs Input Voltage, (b) Dropout Voltage vs Load Current.*
 
