@@ -9,7 +9,8 @@
 * 100mA Output Current Capability.
 * Standard Fixed Output Voltage of 1.8 V.
 * Low Dropout Voltage: 650 mV at 100 mA.
-* Stable with Output Capacitora of 47 µF.
+* Stable with Output Capacitor of 47 µF.
+  - CAP ALUM 47UF 20% 35V SMD.
 * Low Supply Current of 115 µA (No Load).
 * Low Temperature Coefficient 125 ppm/°C.
 * 0.016 V/V Line Regulation at 100 mA.
