@@ -45,17 +45,17 @@
 
 #### Next, typical perofmane curves of the EF_LDOR01 post-layout simulations are presented. 
 
-*As depicted in Figure 3 (a), EF_LDOR01's output is ploted with sweeping the input voltgae from 0V to 5V at different levels of load currents. Besides, the dorpout voltages are calculated at different levels of load currents, then plotted as shown in Figure 3 (b). In Figure 4, Output Voltage vs Input Voltage and Line Regulation vs Load Current are illustrated. Load Regulation can be measured using Figure 5. Startup time  and Temperature Coefficient are calculated as shwon in Figure 6 and 7, repectevely. 
+* As depicted in Figure 3 (a), EF_LDOR01's output is ploted with sweeping the input voltgae from 0V to 5V at different levels of load currents. Besides, the dorpout voltages are calculated at different levels of load currents, then plotted as shown in Figure 3 (b). In Figure 4, Output Voltage vs Input Voltage and Line Regulation vs Load Current are illustrated. Load Regulation can be measured using Figure 5. Startup time  and Temperature Coefficient are calculated as shwon in Figure 6 and 7, repectevely. 
 
 
 
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure3.(a)%20Output%20Voltage%20vs%20Input%20Voltage.png" width="800" height="500">
 
-*(a)*
+(a)
 
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure3.%20(b)dropout_voltage_%20vs_load%20current..png" width="300" height="200">
 
-*(b)*
+(b)
 
 *Figure 3. (a) Output Voltage vs Input Voltage, (b) Dropout Voltage vs Load Current.*
 
@@ -77,3 +77,12 @@
 
 *Figure 7. Temperature Coefficient of the output voltage at (a) IL=100 mA, and (b) IL=1 mA*
 
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%208.ripple_voltage.png" width="400" height="200">
+
+(a)
+
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure8.%20(b)psrr_vs_frequency%20(c)psrr_load_current.png" width="400" height="200">
+
+                       (b)                                            (c)
+
+*Figure 8. (a) Ripple Voltage at Vp-p=0.5 V , (b) PSRR vs Frequency at IL=100 mA, (c) PSRR Vs Load current at fripple=120 Hz and Vp-p=0.5 V*
