@@ -37,7 +37,7 @@
 * The post-layout simulation results of the proposed EF_LDOR01 are listed in Table 2. Those parameters are reported at Temp.=27°C,Co=47µF, ESR=0.1Ω, RB1=450 KΩ, RB2=300 KΩ, Trim[6]=3.3 V. 
 
 *Table 2. Electrical Characteristics*
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/table2.png" width="1000" height="800">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/table2.png" width="800" height="600">
 
 ## 6. Typical Performance Curves
 
