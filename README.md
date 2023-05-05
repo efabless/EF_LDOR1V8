@@ -26,7 +26,7 @@
 * Corresponding to the Block Diagram of the EF_LDOR01, each pin name with its function is described in Table 1. Moreover, typical application of the EF_LDOR01 configuration is presented in Figure 2, where, Co=47µF, ESR=0.1Ω, RB1=450 KΩ, RB2=300 KΩ, and Trim[6]=3.3 V. Min RL is  18 Ω to provide Max load current of 100 mA.
 
 *Table 1. Pin Configuration and Functions*
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/table1.png" width="1000" height="200">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/table1.png" width="800" height="200">
 
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure2.typical_application.png"  width="300" height="200">
 
