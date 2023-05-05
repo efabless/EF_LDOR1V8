@@ -1,0 +1,56 @@
+** sch_path: /home/ahmedreda/Project/AR_BGR/testbench/full_ldo/fullldox_v2-tb/load_trans.sch
+**.subckt load_trans
+Io vo net3 pulse(1m 100m 100u 10u 10u 300u 600u)
+vdd1 vdd1 vss 3.3
+.save i(vdd1)
+vss2 vss GND 0
+.save i(vss2)
+Vbias net1 biasbgr 0
+.save i(vbias)
+vtot vdd1 vdd 0
+.save i(vtot)
+R3 net4 vdd 300000 m=1
+C1 vo net2 47u m=1
+R1 net2 vss 0.1 m=1
+Vl net3 vss 0
+.save i(vl)
+Vbiasldo net4 biasldo 0
+.save i(vbiasldo)
+R2 net1 vdd 450000 m=1
+x1 biasldo biasbgr vss vss vss vdd vss vss vss vss vss vss vss vss vss vss vss vss vo vdd vss EF_LDOR01
+
+**** begin user architecture code
+
+.lib /home/ahmedreda/PDK/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include EF_LDOR01.spice
+
+
+.options RSHUNT=1e15
+.options savecurrents
+.control
+**set filetype=binary
+set filetype=ascii
+set color0=white
+set color1=black
+set color3=blue
+set xbrushwidth=3
+run
+op
+save all
+tran 200n 800u 200n
+let il=vl#branch
+plot vo
+plot il
+plot vo-1.8
+
+plot vo il
+
+.endc
+
+
+
+
+
+
+.GLOBAL GND
+.end
