@@ -77,11 +77,11 @@
 
 *Figure 7. Temperature Coefficient of the output voltage at (a) IL=100 mA, and (b) IL=1 mA*
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%208.ripple_voltage.png" width="400" height="200">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure%208.ripple_voltage.png" width="800" height="500">
 
 (a)
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure8.%20(b)psrr_vs_frequency%20(c)psrr_load_current.png" width="400" height="200">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure8.%20(b)psrr_vs_frequency%20(c)psrr_load_current.png" width="600" height="300">
 
                        (b)                                            (c)
 
