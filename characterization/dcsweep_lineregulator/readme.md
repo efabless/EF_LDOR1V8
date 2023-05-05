@@ -1,4 +1,4 @@
-## To run the PSRR testbench using the follwing steps:-
+## To run the dcsweep testbench using the follwing steps:-
 * Open terminal window
 * Write the next command 
 <p>&nbsp;</p>
