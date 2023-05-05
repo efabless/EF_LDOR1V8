@@ -81,7 +81,7 @@
 
 (a)
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure8.%20(b)psrr_vs_frequency%20(c)psrr_load_current.png" width="600" height="400">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure8.%20(b)psrr_vs_frequency%20(c)psrr_load_current.png" width="600" height="250">
 
                        (b)                                            (c)
 
@@ -91,7 +91,7 @@
 
 *Figure 9. Load Transient Response at VDD of 3.3 V (tr=tf=10μs).*
 
-<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure10.line_transient_response.png" width="1000" height="600">
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure10.line_transient_response.png" width="800" height="500">
 
 *Figure 10. Line Transient Response at IL of 100 mA and VDD transits from 2.97 V to 3.63 V.*
 
