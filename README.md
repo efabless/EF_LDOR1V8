@@ -1,5 +1,5 @@
 ## 1. Description
-*  The EF_LDOR01 is a positive low dropout regulator for output of 1.8 V. It is capable of supplying 100 mA of output current with a dropout voltage of 650 mV. Low operating quiescent current of 115 µA is consumed at no load current. Moreover, it provides a standard fixed output voltage of 1.8V which is a good choice for logic power supply. The EF_LDOR01 requires an output capacitance of 47 μF with a wide range of ESR (0.1 Ω to 0.5 Ω) for stability. Output capacitors of this size are typically included in most regulator designs.
+*  The EF_LDOR01 is a positive low dropout regulator for output of 1.8 V. It is capable of supplying 100 mA of output current with a dropout voltage of 650 mV. Low operating quiescent current of 115 µA is consumed at no load current. Moreover, it provides a standard fixed output voltage of 1.8V which is a good choice for logic power supply. The EF_LDOR01 requires an output capacitance of 47 μF with a wide range of ESR (0.1 Ω to 0.5 Ω) for stability. Output capacitors of this size are typically included in most regulator designs.The functional block diagram is illustrated in Figure 1.
 
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure1.functionalblockdiagram.png" width="300" height="250">
 
@@ -18,5 +18,16 @@
 *	Power Supply Ripple Rejection of 38.9 dB.
 *	Startup time of 450 µs at rising time of 100 µs.
 
-## 2. Applications
+## 3. Applications
 *	3.3V to 1.8V Logic Power Supply 
+
+## 4. Pin Configuration and Functions
+
+* Corresponding to the Block Diagram of the EF_LDOR01, each pin name with its function is described in Table 1. Moreover, typical application of the EF_LDOR01 configuration is presented in Figure 2, where, Co=47µF, ESR=0.1Ω, RB1=450 KΩ, RB2=300 KΩ, and Trim[6]=3.3 V. Min RL is  18 Ω to provide Max load current of 100 mA.
+
+*Table 1. Pin Configuration and Functions*
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/table1.png" width="1000" height="200">
+
+<img src="https://github.com/Ahmedredamohamed2022/EF_LDOR01/blob/main/docs/_static/figure2.typical_application.png"  width="300" height="200">
+
+*Figure 2. Typical Application*
