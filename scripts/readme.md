@@ -3,7 +3,7 @@
 * Type this command
 <p>&nbsp;</p>
 
->`./lef.h`
+>`./lef.sh`
 
 <p>&nbsp;</p>
 
