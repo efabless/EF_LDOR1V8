@@ -12,6 +12,6 @@ Here, eight test benches are utilized to characterize the EF_LDOR1V8.
 * power_suppy_ripple_rejection
     - power supply ripple rejection (psrr) is calculated at different levels of frequencies (10 Hz to 100KHz)
 * startup
-    - start-up time is calculated at a load current of mA and with different rising times from 1us to 100us.
+    - start-up time is calculated at a load current of 100mA and with different rising times from 1us to 100us.
 * temperature_coefficient
     - temperature_coefficient (tc) is calculated within the temperatue range from 0 to 70 oC (Commercial Temperature Range)
