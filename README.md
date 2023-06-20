@@ -1,5 +1,5 @@
 ## 1. Description
-*  The EF_LDOR1V8 is a positive low dropout regulator for output of 1.8 V. It is capable of supplying 100 mA of output current with a dropout voltage of 650 mV. Low operating quiescent current of 115 µA is consumed at no load current. Moreover, it provides a standard fixed output voltage of 1.8V which is a good choice for logic power supply. The EF_LDOR1V8 requires an output capacitance of 47 μF with a wide range of ESR (0.1 Ω to 0.5 Ω) for stability. Output capacitors of this size are typically included in most regulator designs.The functional block diagram is illustrated in Figure 1.
+*  The EF_LDOR1V8 is a positive low dropout regulator for an output of 1.8 V. It is capable of supplying 100 mA of output current with a dropout voltage of 650 mV. A low operating quiescent current of 115 µA is consumed at no load current. Moreover, it provides a standard fixed output voltage of 1.8V which is a good choice for a logic power supply. The EF_LDOR1V8 requires an output capacitance of 47 μF with a wide range of ESR (0.1 Ω to 0.5 Ω) for stability. Output capacitors of this size are typically included in most regulator designs. The functional block diagram is illustrated in Figure 1.
 
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR1V8/blob/main/docs/_static/figure1.functional_block_diagram.png" width="300" height="250">
 
@@ -12,7 +12,7 @@
 * Stable with Output Capacitor of 47 µF.
   - CAP ALUM 47UF 20% 35V SMD.
 * Low Supply Current of 115 µA (No Load).
-* Low Temperature Coefficient 125 ppm/°C.
+* Low-Temperature Coefficient 125 ppm/°C.
 * 0.016 V/V Line Regulation at 100 mA.
 *	0.0083 mV/mA Load Regulation at 3.3 V.
 *	Power Supply Ripple Rejection of 38.9 dB.
@@ -23,7 +23,7 @@
 
 ## 4. Pin Configuration and Functions
 
-* Corresponding to the Block Diagram of the EF_LDOR1V8, each pin name with its function is described in Table 1. Moreover, typical application of the EF_LDOR1V8 configuration is presented in Figure 2, where, Co=47µF, ESR=0.1Ω, RB1=450 KΩ, RB2=300 KΩ, and Trim[6]=3.3 V. Min RL is  18 Ω to provide Max load current of 100 mA.
+* Corresponding to the Block Diagram of the EF_LDOR1V8, each pin name with its function is described in Table 1. Moreover, a typical application of the EF_LDOR1V8 configuration is presented in Figure 2, where, Co=47µF, ESR=0.1Ω, RB1=450 KΩ, RB2=300 KΩ, and Trim[6]=3.3 V. Min RL is  18 Ω to provide Max load current of 100 mA.
 
 *Table 1. Pin Configuration and Functions*
 <img src="https://github.com/Ahmedredamohamed2022/EF_LDOR1V8/blob/main/docs/_static/table1.png" width="800" height="200">
@@ -41,9 +41,9 @@
 
 ## 6. Typical Performance Curves
 
-* The proposed EF_LDOR1V8 has been designed and simulated using open-source tools with SkyWater technology. Herein, [XSCHEM](https://xschem.sourceforge.io/stefan/index.html) is a schematic capture program that provides a graphical method of the electronic schematic circuit, easily. [NGSPICE](http://ngspice.sourceforge.net/download.html) is an open-source spice simulator. It is exploied to simulate and verify the designed circuit. Layout of the EF_DACR0801 is implemented using [MAGIC 8.3](http://opencircuitdesign.com/magic/) and for design rule check (DRC) as well. However, [NETGEN](http://opencircuitdesign.com/netgen/) is used for comparing netlists of the layout and schematic, known as layout vs schamtc (LVS). [PYTHON](https://www.python.org/) can be integrated with NGSPICE simulator for data manipulation/analysis of the simulation result.
+* The proposed EF_LDOR1V8 has been designed and simulated using open-source tools with SkyWater technology. Herein, [XSCHEM](https://xschem.sourceforge.io/stefan/index.html) is a schematic capture program that provides a graphical method of the electronic schematic circuit, easily. [NGSPICE](http://ngspice.sourceforge.net/download.html) is an open-source spice simulator. It is exploited to simulate and verify the designed circuit. The layout of the EF_DACR0801 is implemented using [MAGIC 8.3](http://opencircuitdesign.com/magic/) and for design rule check (DRC) as well. However, [NETGEN](http://opencircuitdesign.com/netgen/) is used for comparing netlists of the layout and schematic, known as layout vs schematic (LVS). [PYTHON](https://www.python.org/) can be integrated with the NGSPICE simulator for data manipulation/analysis of the simulation result.
 
-#### Next, typical perofmane curves of the EF_LDOR1V8 post-layout simulations are presented. 
+#### Next, typical performance curves of the EF_LDOR1V8 post-layout simulations are presented. 
 
 * As depicted in Figure 3 (a), EF_LDOR1V8's output is plotted by sweeping the input voltage from 0V to 5V at different levels of load currents. Besides, the dropout voltages are calculated at different levels of load currents, then plotted as shown in Figure 3 (b). In Figure 4, Output Voltage vs Input Voltage and Line Regulation vs Load Current are illustrated. Load Regulation can be measured using Figure 5. Startup time and Temperature Coefficient are calculated as shown in Figures 6 and 7, respectively. 
 
@@ -106,7 +106,7 @@
 ## 7. Downloading the files on your System
 <p>&nbsp;</p>
 
-* The files from this repository can be downloaded and used by the following commands :-
+* The files from this repository can be downloaded and used by the following commands:-
 >`sudo apt install -y git`
 
 >`git clone https://github.com/Ahmedredamohamed2022/EF_LDOR01.git`
