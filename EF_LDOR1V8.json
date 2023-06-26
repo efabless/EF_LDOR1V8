@@ -6,7 +6,7 @@
     "version" : "0.1",
     // m-d-y
     "date": "5-1-2023",
-    // digital, analog, dataconv, comm, rf, mixed signal ...
+    // digital, analog, dataconv, comm, rf, mixed signal ....
     "category": "analog",
     // hard/soft
     "type": "hard",
